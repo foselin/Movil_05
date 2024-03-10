@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/configuracion"
+        android:title="configuracion"
+        android:icon="@drawable/configuracion_icon"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/perfil"
+        android:title="perfil"
+        android:icon="@drawable/perfil_icon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/mapa"
+        android:title="compartir localizacion"
+        android:icon="@drawable/mapa_icon"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nueva_cuenta"
+        android:title="agregar cuenta"
+        android:icon="@drawable/nueva_icon"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/salir"
+        android:title="cerrarsesion"
+        android:icon="@drawable/salir_icon"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>
